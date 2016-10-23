@@ -1,0 +1,43 @@
+#juego{
+  width: 600px;
+  height: 600px;
+  position: relative;
+  border: solid 5px #085947;
+  background-image: url("../img/background1.jpg");
+  /*background-color: #4faf9a;*/
+}
+
+.pieza{
+  outline: 2px #2f8472 solid;
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+  position: absolute;
+  transition: all .7s ease-in-out;
+}
+
+#centro{
+  position: absolute;
+  margin-top: 0;
+  padding-left: 26%;
+}
+h1{
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-right:0;
+  font-family: ;
+  color: #b8cdef;
+  float: ;
+}
+h2{
+  color: red;
+  margin: auto 0;
+  position: absolute;
+  top:20px;
+  left: 360px;
+}
+html{
+  background-image: url("../img/background.jpg");
+  background-size: 100%
+}
