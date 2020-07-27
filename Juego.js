@@ -1,4 +1,4 @@
-   
+
    var juego = {
     filas: [
       [],
@@ -13,7 +13,7 @@
       var nuevoElemento = $("<div>");
       nuevoElemento.addClass("pieza");
       nuevoElemento.css({
-        backgroundImage: "url(img/" + numero + ".jpeg )",
+        backgroundImage: "url(img/" + numero + ".jpg )",
         top: fila * 200,
         left: columna * 200
       });
